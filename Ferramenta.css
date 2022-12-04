@@ -1,0 +1,212 @@
+.titlePadraoCanto{
+	margin: 1em;
+	font-family: 'Montez', cursive;
+	font-size:36px;
+	font-weight: bold;
+}
+.titlePadraoCanto:before{
+	content:"➪"
+}
+
+.paragrafoFerramentas{
+	font-size: 20px;
+	margin:0.5em auto;
+	padding: 0;
+	text-indent:50px;
+	text-align: justify;
+	line-height: 1.5em;
+}
+.paragrafoVolta{
+	font-size: 20px;
+	margin:10px auto;
+	padding: 1em 0 1em 0;
+}
+
+.liFerramenta {
+	width: 12%;
+	margin: 0.15em 0.5em;
+	background: #ffffff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 400px;
+	line-height: 25px;
+	padding:0.5em;
+	font-family: 'Assistant', cursive;
+	font-weight: bold;
+	box-shadow: 0px 0px 0.5em teal;
+	-webkit-box-shadow: 0px 0px 0.5em teal;
+	-moz-box-shadow: 0px 0px 0.5em teal;
+	border-color:#000000;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+.liFerramenta:hover{
+	width: 14%;
+	trasition:0.8s;
+	color:#000000;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.aFerramenta{
+	text-decoration: none;
+	color: #000000;
+}
+
+.aFerramenta:hover{
+	font-size: 20px;
+	trasition:0.8s;
+	transform:scale(1);	
+}
+
+.menuFerramenta{
+	padding: 20px 5px;
+	display: flex;
+	margin-bottom: 4em;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	/*gap:10px;*/
+}
+
+.liFerramenta:hover{
+	background:#F0F8FF;
+	trasition:0.8s;
+	transform:scale(1);
+}
+
+#tamanho{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.iconesfe{
+	width: 30%;
+	padding-top: 10px;
+	margin: 0;
+}
+
+.voltar{
+	position: relative;
+	left:80%;
+	color: #000000;
+	font-size: 18px;
+	padding:0.3em 0.8em;
+	background-color: #f2f2f2;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.voltar:after{
+	content: "\261D"
+}
+
+.voltar:hover{
+	font-size: 24px;
+}
+
+.titleFerramenta{
+	font-family: 'Montez', cursive;
+	font-size:34px;
+	text-shadow: #177653 1px 2px 5px;
+	font-weight: bold;
+	padding: 0 0 1em 2em;
+	margin: 0;
+}
+
+#titleGestao{
+	margin: 1em;
+	font-family: 'Montez', cursive;
+	font-size:36px;
+}
+
+#titleGestao:before{
+	content:"➪"
+}
+
+.titleFerramenta:before{
+	content:"➪"
+}
+
+#saiba{
+	font-family: 'Montez', cursive;
+	font-size:18px;
+}
+	
+h6 {
+	font-size:20px;
+	font-weight: 400px;
+	font-family: 'Assistant', cursive;
+}
+
+.iconesPi{
+	width: 60%;
+}
+.liPilares{
+	width: 20%;
+	margin: 0.15em 0.5em;
+	background: #ffffff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 400px;
+	line-height: 25px;
+	padding:0.5em;
+	font-family: 'Assistant', cursive;
+	font-weight: bold;
+	box-shadow: 0px 0px 0.5em teal;
+	-webkit-box-shadow: 0px 0px 0.5em teal;
+	-moz-box-shadow: 0px 0px 0.5em teal;
+	border-color:#000000;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+.liPilares:hover{
+	width: 22%;
+	trasition:0.8s;
+	color:#000000;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	background:#F0F8FF;
+}
+
+.articlePilares{
+	margin-bottom: 8em;
+}
+.Swot{
+	padding-left:3em;
+	margin:2.5em;
+	width:90%;
+	display: flex;
+	align-items: center;
+}
+.list{
+	list-style-type: disc;
+	list-style-position: inside;
+	text-align: left;
+	padding: 8px;
+	margin-left: 4em;
+	text-indent: 0.5em;
+}
+.listOl{
+	list-style-type: decimal;
+	list-style-position: inside;
+	font-weight: bold;
+	padding-left: 2em;
+	padding-top: 2em;
+}
+.textinsideList{
+	padding:0 5em 0 5em;
+}
+.dicaEng{
+	font-size: 22px;
+	padding: 1em 0 1em 3em;
+}
+i {
+	font-style: italic;
+}
+#imgPorter{
+	padding-right: 3em;
+}
